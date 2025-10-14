@@ -95,6 +95,15 @@ a {
       .custom-navbar .custom-navbar-cta li:first-child {
         margin-right: 20px; }
 
+.hero-section{
+	background-image: url('eventheader1.jpg')!important; /* Replace with the actual path to your image */
+	width: 100%;
+    height: auto; /* Set a height for the div to make the background visible */
+    background-size: cover !important; /* Stretches the image to fill the div exactly */
+	background-repeat: no-repeat!important;
+	border: 2px dashed #ccc; /* For visualization */
+}
+
 .hero {
   background: #515554;
   padding: calc(4rem - 30px) 0 0rem 0; }

@@ -132,6 +132,14 @@ a {
 }
 
 // Hero 
+.hero-section{
+	background-image: url('images/events/eventheader.jpg'); /* Replace with the actual path to your image */
+    height: 800px; /* Set a height for the div to make the background visible */
+    background-size: cover; /* Optional: Scale the image to cover the entire div */
+    background-position: center center; /* Optional: Center the image within the div */
+    background-repeat: no-repeat;
+}
+
 .hero {
 	background: $primary;
 	padding: calc(4rem - 30px) 0 0rem 0;
