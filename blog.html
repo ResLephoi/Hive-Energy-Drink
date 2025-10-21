@@ -62,11 +62,16 @@
 								<p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<div class="hero-img-wrap">
-								<img src="images/header1.png" class="img-fluid">
-							</div>
-						</div>
+						<div class="col-lg-7 d-none d-lg-block">
+                            <div class="hero-img-wrap">
+                                <!-- Use <picture> with a min-width source and a tiny inline placeholder as the img src
+                                     so small-screen browsers don't download the large hero. -->
+                                <picture>
+                                  <source media="(min-width:992px)" srcset="images/header1.png">
+                                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Hive product hero" class="img-fluid hero-responsive-img" width="1200" height="700">
+                                </picture>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>
